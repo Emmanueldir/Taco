@@ -1,0 +1,44 @@
+
+table,
+th,
+td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+a:link {
+   color: grey;
+}
+a:visited {
+   color: grey;
+}
+p{
+   text-align: centre;
+}
+
+.link ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   }
+
+.link li{
+   float: left;
+}
+
+.link li a{
+   display: inline-block;
+   color: #fff;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.link li a:hover{
+   background-color: #111;
+}
+
+.active{
+   background-color: #000;
+}
